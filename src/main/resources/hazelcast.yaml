@@ -1,0 +1,9 @@
+hazelcast:
+  network:
+    join:
+      multicast:
+        enabled: true
+  jet:
+    enabled: true
+    instance:
+      cooperative-thread-count: 4
